@@ -63,6 +63,11 @@ p.light {
     /*transition: background 0.05s linear;*/
 }
 
+.top-absolute {
+    position: absolute;
+    z-index: 2;
+}
+
 .red {
     background-color: #ff5252 !important;
 }
@@ -74,6 +79,7 @@ p.tapnow {
     position: absolute;
     margin-top: 72px;
     margin-left: 38px;
+    z-index: 1;
 }
 
 p.under {
