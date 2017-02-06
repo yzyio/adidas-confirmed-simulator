@@ -38,7 +38,7 @@ $(function () {
     }
 
     function tweet() {
-        var tweetText = "I just tapped " + clicks + "x in " + (mSecs / 100) + "s on @yeezio Adidas Confirmed Simulator. Link: " + window.location.href;
+        var tweetText = "I just tapped " + clicks + "x in " + (mSecs / 100) + "s on @yzyio Adidas Confirmed Simulator. Link: " + window.location.href;
         var twitterTweetUrl = "https://twitter.com/intent/tweet?text=";
         var url = twitterTweetUrl + encodeURI(tweetText);
 
