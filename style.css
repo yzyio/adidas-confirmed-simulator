@@ -1,0 +1,106 @@
+body {
+    background-color: #fafafa;
+    font-family: YeezyzTStar, adihausbold, Arial;
+}
+
+p.bold {
+    color: #212121;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+p.light {
+    font-weight: normal;
+}
+
+.top-right {
+    padding-top: 36px;
+}
+
+#topbar {
+    background-color: #000;
+    width: 100%;
+    height: 50px;
+    color: #FFF;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#topbar p {
+    margin-top: 12px;
+}
+
+.click-area {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.click-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.click-adidas {
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    background-color: #2374bd;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    /*transition: background 0.05s linear;*/
+}
+
+.red {
+    background-color: #ff5252 !important;
+}
+
+p.tapnow {
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 32px;
+    position: absolute;
+    margin-top: 72px;
+    margin-left: 38px;
+}
+
+p.under {
+    font-size: 12px;
+    margin-top: 115px;
+    display: none;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 7%;
+    text-align: center;
+    font-size: 28px;
+    width: 100%;
+}
+
+span.share {
+    display: none;
+    font-size: 18px;
+}
+
+@media all and (max-width: 600px) {
+    h1 small {
+        font-size: 40% !important;
+    }
+
+    .top-right {
+        padding-top: 0px;
+    }
+}
